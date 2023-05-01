@@ -1,0 +1,29 @@
+body {background-color:lightblue;}
+p {color:green;font-family:Georgia;font-size:110%}
+ul {color:firebrick;font-size:90%}
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 0px 0px; /* 3 */
+    background: #f1e9d5; /* 4 */
+}
+
+nav h2 {
+    margin: 0px 0px;
+}
+
+nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+    margin: 0px 0px;
+}
+
+nav li {
+    padding-left: 1rem; /* 7! */
+    font-size: 130%;
+}
+
+table, th, td {
+    border: 1px solid;
+    color:#b016bb
+}
